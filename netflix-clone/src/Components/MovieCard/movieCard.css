@@ -1,0 +1,9 @@
+.movie-card {
+  width: 200px;
+  cursor: pointer;
+  margin: 0.5rem;
+}
+.movie-card:hover {
+  transform: translateY(-10px) scale(1.05);
+  transition: transform 0.8s;
+}

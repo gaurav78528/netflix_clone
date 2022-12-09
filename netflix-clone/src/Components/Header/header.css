@@ -1,0 +1,33 @@
+.header {
+  height: 80px;
+  background-color: black;
+  display: flex;
+  align-items: center;
+  padding: 1.5rem;
+  box-sizing: border-box;
+  justify-content: space-between;
+}
+.header > a {
+  height: 100%;
+}
+.header img {
+  height: 100%;
+}
+.header > svg {
+  color: #fff;
+  font-size: 2rem;
+  cursor: pointer;
+  transition: 1s ease;
+}
+.header > svg:hover {
+  color: crimson;
+}
+.nav-items {
+  width: 100%;
+  margin-left: 4vmax;
+}
+.nav-items > a {
+  margin: 1vmax;
+  font-size: 1.4;
+  font-weight: 300;
+}

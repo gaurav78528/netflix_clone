@@ -1,0 +1,13 @@
+.movie-row {
+  padding: 1rem;
+  background-color: black;
+}
+.movie-row > div {
+  display: flex;
+  justify-content: space-evenly;
+  overflow-x: auto;
+}
+.movie-row > h2 {
+  margin: 0.5rem;
+  font-weight: 400;
+}
